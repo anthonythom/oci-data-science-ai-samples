@@ -13,7 +13,7 @@ REGION_IDENTIFIER = "uk-london-1"
 SERVICE_ENDPOINT_DP = f"https://dlsprod-dp.{REGION_IDENTIFIER}.oci.oraclecloud.com"
 SERVICE_ENDPOINT_OBJECT_STORAGE = f"https://objectstorage.{REGION_IDENTIFIER}.oraclecloud.com"
 # ocid of the DLS Dataset
-DATASET_ID = "ocid1.datalabelingdatasetint.oc1.uk-london-1.amaaaaaaniob46iagvz2cg7rpwrpuqmqfcbuyyzqviqoseow5eaurg66pwhq"
+DATASET_ID = "ocid1.datalabelingdataset.oc1.sa-saopaulo-1.amaaaaaar43skxaaepczyoxvoeubyermtg7rgnwqmvwt4r5aztdno5s7ledq"
 # the no of processes to be used for parallel execution by default is set to maximum no of processors in the system
 NO_OF_PROCESSORS = mp.cpu_count()
 # Type of Annotation
