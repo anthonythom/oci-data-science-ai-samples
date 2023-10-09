@@ -6,10 +6,10 @@ LIST_RECORDS_LIMIT = 1000
 LABELING_ALGORITHM = "FIRST_LETTER_MATCH"
 # an array where the elements are all of the labels that you will use to annotate records in your DLS Dataset with.
 # Each element is a separate label.
-LABELS = ["jpeg", "jpg"]
+LABELS = ["lisos", "ondulados", "cacheados", "dreadlock"]
 
 # use for first_match labeling algorithm
 FIRST_MATCH_REGEX_PATTERN = r'^([^/]*)/.*$'
 
 # For CUSTOM_LABEL_MATCH specify the label map
-LABEL_MAP = {"dog/": ["dog", "pup"], "cat/": ["cat", "kitten"]}
+LABEL_MAP = {"lisos/": ["liso"], "cacheados/": ["cacheado", "ondulados/": ["ondulado"]}
